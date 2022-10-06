@@ -1,0 +1,8 @@
+logging:
+  level:
+    root: info
+    org.springframework.web: info
+    org.springframework.security: info
+jwt:
+  private.key: classpath:app.key
+  public.key: classpath:app.pub
